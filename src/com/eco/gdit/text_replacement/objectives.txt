@@ -1,9 +1,0 @@
-
-1. read in two files
-
-	a. One file in CSV format
-	b. One file in plain text
-	
-2. replace the text in two specific places in the plain text field
-	with text in two of of columns of the CSV file
-	
