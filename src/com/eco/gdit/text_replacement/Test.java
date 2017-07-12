@@ -6,13 +6,15 @@ public class Test {
 	
 	public static void main(String[] args) {
 		
-		ReadTextFile rtf = new ReadTextFile();
-		
+		ReadFile rtf = new ReadTextFileBytes();
+				
 		File file = new File(System.getProperty("user.dir")+ "\\objectives.txt");
 		
 		String s = rtf.readFile(file);
 		
-		System.out.println(s);
+		//System.out.println(s);
+		
+		System.out.println(rtf.readFile(file));
 	
 	}
 

@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class ReadTextFile implements ReadFile {
+public class ReadTextFileBuffered implements ReadFile {
 
 	@Override
 	public String readFile(File file) {
